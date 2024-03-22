@@ -19,8 +19,12 @@ MLXFLAGS = -lXext -lX11
 SRCS = 		so_long.c\
 				checkers.c\
 				errors.c\
+				aux.c\
+				images.c\
+				map.c\
 				get_next_line/get_next_line_bonus.c\
 				get_next_line/get_next_line_utils_bonus.c
+
 
 OBJS = $(SRCS:.c=.o)
 

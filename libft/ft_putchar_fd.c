@@ -6,13 +6,20 @@
 /*   By: jomendes <jomendes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 18:43:08 by jomendes          #+#    #+#             */
-/*   Updated: 2023/10/11 12:49:16 by jomendes         ###   ########.fr       */
+/*   Updated: 2024/03/19 13:37:10 by jomendes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putchar_fd(char c, int fd)
+
+int	ft_putchar_fd(char c, int fd)
 {
-	write(fd, &c, 1);
+	if (fd >= 0)
+	{
+		write(fd, &c, 1);
+		return (1);
+	}
+	return (0);
 }
+

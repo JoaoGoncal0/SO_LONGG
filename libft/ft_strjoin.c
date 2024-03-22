@@ -6,13 +6,13 @@
 /*   By: jomendes <jomendes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 10:10:04 by jomendes          #+#    #+#             */
-/*   Updated: 2023/10/09 13:04:02 by jomendes         ###   ########.fr       */
+/*   Updated: 2024/03/21 12:56:03 by jomendes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char *s1, char *s2)
 {
 	char	*res;
 	size_t	i;
