@@ -6,13 +6,13 @@
 /*   By: jomendes <jomendes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 11:23:12 by jomendes          #+#    #+#             */
-/*   Updated: 2023/10/06 18:18:52 by jomendes         ###   ########.fr       */
+/*   Updated: 2024/03/25 15:25:28 by jomendes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(const char *str)
+int	ft_strlen(const char *str)
 {
 	int	i;
 

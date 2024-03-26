@@ -6,7 +6,7 @@
 /*   By: jomendes <jomendes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/21 12:41:21 by jomendes          #+#    #+#             */
-/*   Updated: 2024/03/21 18:15:45 by jomendes         ###   ########.fr       */
+/*   Updated: 2024/03/25 13:06:07 by jomendes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,11 +23,9 @@ int		map_heigth(char *file)
 	counter = 0;
 	while (row)
 	{
-		free(row);
 		row = get_next_line(fd);
 		counter++;
 	}
-	free(row);
 	close(fd);
 	return (counter);
 }

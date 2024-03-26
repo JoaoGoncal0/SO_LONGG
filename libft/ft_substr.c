@@ -6,15 +6,15 @@
 /*   By: jomendes <jomendes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 09:43:19 by jomendes          #+#    #+#             */
-/*   Updated: 2023/10/11 19:27:08 by jomendes         ###   ########.fr       */
+/*   Updated: 2024/03/25 15:27:37 by jomendes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_substr(char const *s, unsigned int start, size_t len)
+char	*ft_substr(char const *s, int start, int len)
 {
-	size_t	j;
+	int	j;
 	char	*result;
 
 	j = 0;
